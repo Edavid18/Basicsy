@@ -6,7 +6,7 @@
 }
 
 .newColor{
-    background-color: rgb(255, 249, 240) !important;
+    background-color: transparent !important;
 }
 
 #logo{
@@ -19,18 +19,23 @@
     margin-left: 16px;
 }
 
+#NavBar{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
 .navItems{
     margin: 0px 30px;
 }
 
 #Main{
     display: flex;
-
 }
 
 #imgHomeDiv{
     min-width: 50%;
-    max-height: 500px;
+    max-height: 600px;
     width: 50vw;
 }
 
