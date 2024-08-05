@@ -130,4 +130,13 @@
         font-size: 18px;
     }
 
+    #logo{
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .footerDiv{
+        display: flex;
+    }
+
 }
