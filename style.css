@@ -53,10 +53,22 @@
     text-align: center;
     flex-direction: column;
     min-width: 50%;
+    padding-top: 40px;
 }
 
 .textFont{
     font-family: 'Higuen Elegant Serif', serif;
+    font-size: 50px;
+}
+
+.subTextFont{
+    font-family: 'Higuen Elegant Serif', serif;
+    font-size: 20px;
+}
+
+.textFontButton{
+    font-family: 'Higuen Elegant Serif', serif;
+    font-size: 20px;
 }
 
 .divImgCard{
@@ -126,17 +138,23 @@
         padding-top: 50px;
     }
 
+    .textFont{
+        font-family: 'Higuen Elegant Serif', serif;
+        font-size: 25px;
+    }
+
     .textFontPhone{
-        font-size: 18px;
+        font-size: 15px;
+    }
+
+    .textFontButton{
+        font-family: 'Higuen Elegant Serif', serif;
+        font-size: 15px;
     }
 
     #logo{
         width: 100px;
         border-radius: 50%;
-    }
-
-    .footerDiv{
-        display: flex;
     }
 
 }
